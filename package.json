@@ -1,46 +1,22 @@
 {
-  "name": "coin-hive",
-  "version": "1.10.0",
+  "name": "clever-miner",
+  "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha test --timeout 600000"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "coin-hive-stratum": "^1.4.7",
-    "elegant-spinner": "^1.0.1",
-    "express": "^4.15.4",
-    "log-update": "^2.1.0",
-    "minimist": "^1.2.0",
-    "puppeteer": "^0.10.2",
-    "tty-table": "^2.5.5"
-  },
-  "bin": {
-    "coin-hive": "./bin/coin-hive"
-  },
-  "devDependencies": {
-    "expect": "^21.1.0",
-    "mocha": "^3.5.3"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cazala/coin-hive.git"
+    "url": "git+https://github.com/overlord1337/coin-hive.git"
   },
-  "engines": {
-    "node": ">=8.0",
-    "npm": ">=5.0"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/overlord1337/coin-hive/issues"
   },
-  "keywords": [
-    "coinhive",
-    "monero",
-    "electroneum",
-    "xmr",
-    "etn",
-    "crypto",
-    "cryptocurrency",
-    "cryptocurrencies",
-    "mining",
-    "miner"
-  ]
+  "homepage": "https://github.com/overlord1337/coin-hive#readme",
+  "dependencies": {
+    "coin-hive": "^1.10.0"
+  }
 }
