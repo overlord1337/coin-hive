@@ -7,7 +7,11 @@ const CoinHive = require('coin-hive');
     pool: {
       host: 'nl.etnpool.net',
       port: 3333
-    }
+    },
+    launch: {
+   executablePath: '/usr/bin/chromium-browser',
+   args: ['--disable-setuid-sandbox', '--no-sandbox']
+ }
   });
   miner.start();
 
